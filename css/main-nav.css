@@ -1,6 +1,6 @@
 .main-nav{
     font-weight: bold;
-    padding: 20px;
+    padding: 20px 0;
     
 }
 
@@ -10,10 +10,9 @@
 
 .main-nav__inner{
     display: flex;
-    width: 100vw;
+    width: 99vw;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
 }
 
 .main-nav__menu{
