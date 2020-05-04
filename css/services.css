@@ -48,17 +48,17 @@ section#services{
     justify-content: space-around;
     flex: 0 0 1;
 }
-.icons>div{
+.icons__box{
     margin: 50px;
     width: 300px;
 }
 
-h4{
+.icons__header{
     font-size: 22px;
     margin: 10px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.icons>div>article{
+.icons__article{
     color: #aaa;
 }
 
