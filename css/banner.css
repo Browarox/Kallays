@@ -33,6 +33,7 @@
     width: 50vw;
     text-align: center;
     margin: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media(max-width:1019px){
