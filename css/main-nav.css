@@ -17,9 +17,9 @@
 
 .main-nav__menu{
     display: flex;
-
+    transition: 0.5s;
+    transition-property: opacity, transform;
 }
-
 
 
 .main-nav__menu-items{
@@ -123,11 +123,14 @@
         opacity: 0;
         pointer-events: none;
         color: grey;
+        transform: translate(100%);
+        
     }
 
     .main-nav__menu--open{
         opacity: 1;
         pointer-events: unset;
+        transform: unset;
     }
 
     .main-nav__menu-back-block{
