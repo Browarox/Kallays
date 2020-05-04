@@ -1,0 +1,18 @@
+section#works{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media(max-width: 991px){
+    section#works{
+        margin: 0;
+    }
+}
+
+.works__image{
+    width: 360px;
+    height: 360px;
+    margin-bottom: 20px;
+}

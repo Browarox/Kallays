@@ -1,0 +1,12 @@
+.main-background{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-background__image{
+    width: 100%;
+    filter: brightness(60%);
+}
