@@ -5,7 +5,7 @@ section#contact{
     
 }
 
-@media(max-width:699px){
+@media(max-width:989px){
     section#contact{
         flex-direction: column;
     }
@@ -19,7 +19,14 @@ section#contact{
     
 }
 
-@media(max-width:699px){
+@media(max-width:1199px){
+    .contact__text{
+        padding-left: 40px;
+    }
+}
+
+
+@media(max-width:989px){
     .contact__text{
         width: 100%;
         text-align: center;
@@ -47,7 +54,7 @@ section#contact{
     
 }
 
-@media(max-width:699px){
+@media(max-width:989px){
     .contact__form{
         width: 100%;
         padding: 40px;
