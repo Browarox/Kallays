@@ -9,6 +9,7 @@
     text-transform: none;
     font-size: 52px;
     text-align: center;
+    padding: 0 20px;
 }
 
 span{
@@ -30,8 +31,7 @@ section#services{
 .servarticle{
     width: 60%;
     margin-left: 20%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 40px auto;
     color: #aaa;
     text-align: center;
 }
