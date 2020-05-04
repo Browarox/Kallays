@@ -19,13 +19,23 @@ section#contact{
     
 }
 
+@media(max-width:699px){
+    .contact__text{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 40px;
+    }
+}
+
 .contact__text-header{
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(60, 60, 60);
-    text-align: right;
     margin-bottom: 20px;
     font-size: 48px;
 }
+
+
 
 .contact__text-paragraph{
     color: #aaa;
@@ -36,11 +46,20 @@ section#contact{
     width: 40%;
 }
 
+@media(max-width:699px){
+    .contact__form{
+        width: 100%;
+        padding: 40px;
+    }
+}
+
 .contact__form-input{
     margin: 10px 0;
     font-size: 14px;
     padding: 10px;
 }
+
+
 
 .contact__form-input-name{
     width: 100%;
