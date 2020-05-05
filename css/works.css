@@ -15,4 +15,10 @@ section#works{
     width: 360px;
     height: 360px;
     margin-bottom: 20px;
+    transition: transform 0.5s;
+
+}
+
+.works__image:hover{
+    transform: scale(1.1);
 }
