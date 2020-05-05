@@ -7,7 +7,7 @@ section#boxes{
     display: flex;
     color: white;
     flex-wrap: wrap;
-    bottom: 10vw;
+    bottom: 150px;
     justify-content: space-around;
 }
 
@@ -15,6 +15,7 @@ section#boxes{
     section#boxes{
         z-index: -1;
         width: 95%;
+       
     }
 }
 

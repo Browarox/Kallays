@@ -1,6 +1,8 @@
 .main-nav{
     font-weight: bold;
     padding: 20px 0;
+    position: absolute;
+    top: 0;
     
 }
 
@@ -25,6 +27,7 @@
 .main-nav__menu-items{
     list-style: none;
     display: flex;
+    z-index: 1;
 }
 
 .main-nav__menu-item{
@@ -38,6 +41,7 @@
 .main-nav__menu-item-link{
     color: white;
     text-decoration: none;
+   
 }
 
 .main-nav__menu-item-link::after{
