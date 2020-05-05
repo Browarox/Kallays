@@ -39,7 +39,7 @@ section#contact{
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(60, 60, 60);
     margin-bottom: 20px;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 
@@ -80,6 +80,12 @@ section#contact{
 
 .contact__form-input-email{
     width: 50%;
+}
+
+@media(max-width: 479px){
+    .contact__form-input{
+        width: 100%;
+    }
 }
 
 .contact__form-select{
