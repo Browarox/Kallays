@@ -14,7 +14,7 @@
     z-index: 0;
 }
 
-@media(max-width:1019px){
+@media(max-width:1025px){
     .banner{
       height: 60vh;
     }
