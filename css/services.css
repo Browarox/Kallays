@@ -14,6 +14,12 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+@media(max-width: 991px){
+    .services__header{
+        font-size: 42px;
+    }
+}
+
 span{
     color: crimson;
 }
@@ -21,6 +27,7 @@ span{
 section#services{
     width: 80%;
     margin: auto;
+    max-width: 1400px;
 }
 
 @media(max-width: 991px){

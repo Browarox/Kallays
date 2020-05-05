@@ -53,6 +53,7 @@
 @media(max-width:1019px){
     .banner__header{
        width: 94%;
+       font-size: 42px;
     }
 }
 
@@ -71,9 +72,10 @@
 .banner__buttons{
     display: flex;
     margin: 20px;
-    width: 40vw;
+    width: 30vw;
     gap: 4%;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
 @media(max-width:1019px){
@@ -90,6 +92,7 @@
     border: 2px solid crimson;
     align-items: center;
     justify-content: center;
+    
 }
 
 @media(max-width:502px){

@@ -102,6 +102,7 @@ section#contact{
     height: 150px;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
 
 .contact__form-button{
@@ -111,4 +112,5 @@ section#contact{
     font-size: 16px;
     background: crimson;
     font-family: Arial, Helvetica, sans-serif;
+    border: none;
 }

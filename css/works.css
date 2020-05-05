@@ -1,8 +1,9 @@
 section#works{
-    margin: 5%;
+    margin: 5% auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 1600px;
 }
 
 @media(max-width: 991px){
