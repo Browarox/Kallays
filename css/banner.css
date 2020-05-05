@@ -14,6 +14,12 @@
     z-index: 0;
 }
 
+@media(max-width:1019px){
+    .banner{
+      height: 60vh;
+    }
+}
+
 @media(max-width: 659px){
     .banner{
         margin-top: 80px;
@@ -71,11 +77,10 @@
 
 .banner__buttons{
     display: flex;
-    margin: 20px;
+    margin: 20px 0;
     width: 30vw;
-    gap: 4%;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 @media(max-width:1019px){
@@ -85,6 +90,7 @@
 }
 
 
+
 .banner__buttons-button{
     display: flex;
     width: 200px;
@@ -92,6 +98,7 @@
     border: 2px solid crimson;
     align-items: center;
     justify-content: center;
+    margin: 0 2vw;
     
 }
 
@@ -105,7 +112,7 @@
     border: white 2px solid;
 }
 
-.banner__buttons-link:first-child{
+.banner__buttons-button-start{
     background: crimson;
 }
 
