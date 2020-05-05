@@ -14,6 +14,13 @@
     z-index: 0;
 }
 
+@media(max-width: 659px){
+    .banner{
+        margin-top: 80px;
+    }
+}
+
+
 @media(max-width:502px)
 {
     .banner{
