@@ -21,7 +21,7 @@
 }
 
 
-@media(max-width:502px)
+@media(max-width:300px)
 {
     .banner{
         min-height: 800px;
