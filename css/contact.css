@@ -50,7 +50,8 @@ section#contact{
 
 .contact__form{
     display: flex;
-    width: 40%;
+    width: 50%;
+    padding-right: 15%
     
 }
 
