@@ -40,8 +40,17 @@
     text-decoration: none;
 }
 
-.main-nav__menu-item-link:hover{
-    text-decoration: underline solid white;
+.main-nav__menu-item-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.main-nav__menu-item-link:hover::after{
+    width: 100%;
 }
 
 .main-nav__menu-item-back{
