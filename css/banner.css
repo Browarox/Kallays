@@ -1,6 +1,6 @@
 .banner{
     height: 80vh;
-    min-height: 600px;
+    min-height: 650px;
     color: white;
     background-image: url(background.jpg);
     background-position: center center;
@@ -14,9 +14,18 @@
     z-index: -1;
 }
 
+
+
+@media(max-width:1475px){
+    .banner{
+      height: 75vh;
+    }
+}
+
 @media(max-width:1025px){
     .banner{
       height: 75vh;
+      min-height: 800px;
     }
 }
 
@@ -53,16 +62,24 @@
     width: 50vw;
     text-align: center;
     margin: 20px;
-    margin-top: 100px;
+    margin-top: 200px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media(max-width:1019px){
+@media(max-width:1450px){
     .banner__header{
        width: 94%;
        font-size: 42px;
     }
 }
+
+@media(max-width:659px){
+    .banner__header{
+       margin-top: 100px;
+    }
+}
+
+
 
 .banner__article{
     width: 30vw;
@@ -70,7 +87,7 @@
     color: #ccc;
 }
 
-@media(max-width:1019px){
+@media(max-width:1450px){
     .banner__article{
        width: 90%;
     }
