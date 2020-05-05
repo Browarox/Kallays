@@ -59,6 +59,7 @@
 .banner__article{
     width: 30vw;
     text-align: center;
+    color: #ccc;
 }
 
 @media(max-width:1019px){
