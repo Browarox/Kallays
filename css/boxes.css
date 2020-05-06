@@ -13,7 +13,7 @@ section#boxes{
 
 @media(max-width: 659px){
     section#boxes{
-        z-index: -1;
+        z-index: 0;
         width: 95%;
        
     }

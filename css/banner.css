@@ -11,7 +11,7 @@
     align-items: center;
     
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 
@@ -99,6 +99,7 @@
     width: 30vw;
     justify-content: center;
     justify-content: space-around;
+    z-index: 1;
 }
 
 @media(max-width:1019px){
